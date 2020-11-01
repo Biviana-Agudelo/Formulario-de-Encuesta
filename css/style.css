@@ -1,0 +1,72 @@
+body{
+    background-color: rgb(20, 233, 222);
+}
+#main{
+    background-image: url('/img/viajar.jpg');
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+#div-title{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font-family: 'Itim', cursive;
+    text-shadow: 0 0 0.2em #e0d641, 0 0 0.2em rgb(201, 214, 11),
+    0 0 0.2em rgb(197, 171, 25)
+}
+#div-description{
+    background-position: center;
+    text-align: center;
+    font-family: 'Itim', cursive;
+    font-size: 19px;
+    text-shadow: 0 0 0.2em #e0d641, 0 0 0.2em rgb(201, 214, 11),
+    0 0 0.2em rgb(197, 171, 25)
+}
+#div-form{
+    background-position: center;
+    background-color: rgba(44, 199, 199, 0.5);
+    margin: 20px 270px 20px 270px;
+}
+label{
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: 0 0 0.2em #ffffff, 0 0 0.2em rgb(255, 255, 255),
+    0 0 0.2em rgb(255, 255, 255);
+    margin: 10px 0 10px 0;
+}
+.box{
+    border-radius: 10px;
+    width: 730px;
+    height: 40px;
+    margin: 10px 0 10px 0;
+}
+input[type~="radio"]{
+    margin: 5px 20px 5px 0;
+}
+input[type~="checkbox"]{
+    margin: 5px 0 5px 0;
+}
+#commentary{
+    height: 120px;
+}
+#button{
+    text-align: center; 
+    padding-bottom: 40px;
+}
+button{
+    width: 730px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(98, 98, 187);
+}
+#question-pet{
+    font-size: 30px;
+    font-weight: bold;
+    text-shadow: 0 0 0.2em #ffffff, 0 0 0.2em rgb(255, 255, 255),
+    0 0 0.2em rgb(255, 255, 255);
+    margin: 20px 0 10px 0;
+}

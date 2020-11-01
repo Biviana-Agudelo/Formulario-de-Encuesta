@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+    <title>TRAVEL-PET</title>
+</head>
+
+<body>
+
+    <div id="main">
+        <div id="div-title">
+        <h1 id="title"><strong>FORMULARIO DE ENCUESTA</strong></h1>
+        <h3><strong>Pasaporte para transito de Canes y Gatos</strong></h3>
+    </div>
+    <div id="div-description">
+        <p id="description"><strong>Porque sabemos que tu mascota es muy importante para ti, ahora puedes ir con ella a todas
+            partes.</strong></p>
+        <p><strong>Ayudanos diligenciando la siguiente encuesta</strong></p>
+    </div>
+    <div id="div-form">
+        <form id="survey-form">
+            <ul>
+                <li>
+                    <label for="name" id="name-label">Nombre Completo:</label>
+                    <br><input id="name" class="box" type="text" placeholder="Ingrese Su Nombre"></br>
+                </li>
+                <li>
+                    <label for="email" id="email-label">Correo Electrónico:</label>
+                    <br><input id="email" class="box" type="email" placeholder="Ingrese Su Email"></br>
+                </li>
+                <li>
+                    <label for="number" id="number-label">Edad:</label>
+                    <br><input id="number" class="box" type="number" min="1" max="99" placeholder="Edad"></br>
+                </li>
+                <li>
+                    <label for="dropdown">Qué tan frecuente viaja usted en avión:</label>
+                    <br><select name="frecuency" id="dropdown" class="box">
+                        <option disabled selected>Selecciona una Opción</option>
+                        <option value="Nunca">Nunca</option>
+                        <option value="Casi Nunca">Casi Nunca</option>
+                        <option value="En Ocasiones">En Ocasiones</option>
+                        <option value="Con Frecuencia">Con Frecuencia</option>
+                        <option value="Casi Siempre">Casi Siempre</option>
+                        <option value="Siempre">Siempre</option>
+                    </select></br>
+                <li>
+                    <label>¿Tienes Mascota?</label>
+                    <br><label for="yes">Si</label>
+                    <input id="yes" type="radio" name="question">
+                    <label for="no">No</label>
+                    <input id="no" type="radio" name="question"></br>
+
+                </li>
+                <li>
+                    <label>¿Qué tipo de mascota tienes?</label>
+                    <br><label for="perro">Perro</label>
+                    <input id="perro" value="perro" type="checkbox" name="pet"></br>
+                    <br><label for="gato">Gato</label>
+                    <input id="gato" value="gato" type="checkbox" name="pet"></br>
+                    <br><label for="aves">Aves</label>
+                    <input id="aves" value="aves" type="checkbox" name="pet"></br>
+                    <br><label for="roedores">Roedores</label>
+                    <input id="roedores" value="roedores" type="checkbox" name="pet"></br>
+                    <br><label for="otros">Otros</label>
+                    <input id="otros" value="otros" type="checkbox" name="pet"></br>
+                </li>
+                <div>
+                    <p id="question-pet"><u>Ingresa los datos de tu mascota</u></p>
+                </div>
+                <li>
+                    <label for="name-pet" id="label-pet">Nombre Mascota:</label>
+                    <br><input id="name-pet" class="box" type="text" placeholder="Ingrese nombre mascota"></br>
+                </li>
+                <li>
+                    <label for="breed-pet" id="label-breed">Raza Mascota:</label>
+                    <br><input id="breed-pet" class="box" type="text" placeholder="Ingrese raza mascota"></br>
+                </li>
+                <li>
+                    <label for="age-pet" id="label-age">Edad Mascota</label>
+                    <br><input id="age-pet" class="box" type="number"  placeholder="Ingrese edad mascota" min="0" max="30"></br>
+                </li>
+                <li>
+                    <label>Selecciona el tamaño de tu Mascota</label>
+                    <br><label for="big">Grande</label>
+                    <input id="big" type="radio" name="size"></br>
+                    <br><label for="middle">Mediano</label>
+                    <input id="middle" type="radio" name="size"></br>
+                    <br><label for="small">Pequeño</label>
+                    <input id="small" type="radio" name="size"></br>
+                </li>
+                <li>
+                    <label for="weight" id="label-weight">Ingresa el peso de tu Mascota en (Kg)</label>
+                    <br><input id="weight" class="box" type="number" placeholder="Ingrese paso mascota"></br>
+                </li>
+                <li>
+                    <label>Esterilizado</label>
+                    <br><label for="yes-sterilized">Si</label>
+                    <input id="yes-sterilized" type="radio" name="sterilized"></br>
+                    <br><label for="no-sterilized">No</label>
+                    <input id="no-sterilized" type="radio" name="sterilized"></br>
+                </li>
+                <li>
+                    <label>Sexo</label>
+                    <br><label for="sex-pet1">Hembra</label>
+                    <input id="sex-pet1" type="radio" name="sex-1"></br>
+                    <br><label for="sex-pet2">Macho</label>
+                    <input id="sex-pet2" type="radio" name="sex-2"></br>
+                </li>
+                <li>
+                    <label for="dropdown-travel">Para ti que tan importante es viajar con tu mascota:</label>
+                    <br><select name="importance" id="importance-pet" class="box">
+                        <option disabled selected>Selecciona una Opción</option>
+                        <option value="extremadamente importante">Extremadamente Importante</option>
+                        <option value="muy importante">Muy Importante</option>
+                        <option value="moderadamente importante">Moderadamente Importante</option>
+                        <option value="poco importante">Poco Importante</option>
+                        <option value="no importante">No Importante</option>
+                        
+                    </select></br>
+
+                </li>
+
+                <li>
+                    <label>Déjanos tus comentarios e inquietudes</label>
+                    <br><textarea id="commentary" name="comentarios" class="box" placeholder="Escribe aquí tus comentarios"></textarea></br>
+                </li>
+            </ul>
+            <div id="button">
+                <button type="submit">ENVIAR</button>
+            </div>
+            
+
+
+        </form>
+    </div>
+    </div>
+
+
+
+    <script src="./js/jquery.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
