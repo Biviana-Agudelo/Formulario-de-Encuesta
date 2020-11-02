@@ -2,7 +2,7 @@ body{
     background-color: rgb(20, 233, 222);
 }
 #main{
-    background-image: url('/img/viajar.jpg');
+    background-image: url('/img/viajar.png');
     background-size: 80%;
     background-repeat: no-repeat;
     background-attachment: fixed;
